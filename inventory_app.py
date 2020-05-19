@@ -13,7 +13,7 @@ run = menu()
 while True:
     if run == '1':
         addStock = input('Food to be added to stock? ')
-        amount = int(input('Quantityf of food to be added stock? '))
+        amount = int(input('Quantity of food to be added stock? '))
         stock[addStock] = amount
         run = menu()
 
@@ -44,3 +44,5 @@ while True:
     
     elif run == 'q':
         break
+
+print("The program has ended")
