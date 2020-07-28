@@ -23,8 +23,6 @@ paddle_a.shapesize(stretch_wid=5, stretch_len=1)
 paddle_a.penup()
 paddle_a.goto(-350, 0)
 
-
-
 # paddle b
 paddle_b =turtle.Turtle()
 paddle_b.speed(0)
@@ -60,8 +58,6 @@ winner.color("yellow")
 winner.penup()
 winner.hideturtle()
 winner.goto(0,0)
-
-
 
 # functions
 def  paddle_a_up():
