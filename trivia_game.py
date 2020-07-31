@@ -40,6 +40,13 @@ if ans.lower() == 'yes':
     else:
         print('Incorrect')
 
+    ans = input('6. True or False? Programming is never hard or a pain in the ass ')
+    if ans.lower() == 'False' or ans.lower() == 'false':
+        score += 1
+        print('Correct')
+    else:
+        print('Incorrect')
+
 print('thank you for playing, you got {} questions correct.'.format(score))
 mark = (score/total_q) * 100
 
